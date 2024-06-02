@@ -25,6 +25,7 @@ A curated list of unique and useful CI/CD attack techniques.
 - [GitLab Secrets](https://github.com/RichardoC/gitlab-secrets) - A tool that can reveal deleted GitLab commits that potentially contain sensitive information and are not accessible via the public Git history.
 - [Hidden GitHub Commits and How to Reveal Them](https://neodyme.io/en/blog/github_secrets/) - A tool that can reveal deleted GitHub commits that potentially contain sensitive information and are not accessible via the public Git history.
 - [Holes in Your Bitbucket: Why Your CI/CD Pipeline Is Leaking Secrets](https://cloud.google.com/blog/topics/threat-intelligence/bitbucket-pipeline-leaking-secrets)
+- [Publicly Exposed AWS Document DB Snapshots](https://ramimac.me/exposed-docdb)
 - [Thousands of images on Docker Hub leak auth secrets, private keys](https://www.bleepingcomputer.com/news/security/thousands-of-images-on-docker-hub-leak-auth-secrets-private-keys/)
 
 ### Initial Code Execution

@@ -88,6 +88,7 @@ A curated list of unique and useful CI/CD attack techniques.
 - [Grep.app](https://grep.app/) - Search GitHub using regex.
 - [Jenkins Attack Framework](https://github.com/Accenture/jenkins-attack-framework)
 - [Nord Stream](https://github.com/synacktiv/nord-stream) - A tool to extract secrets stored inside CI/CD environments.
+- [Cloudfox](https://github.com/BishopFox/cloudfox) - Find attack paths in AWS.
 - [Prowler](https://github.com/prowler-cloud/prowler) - Multi-cloud security tool.
 - [pwn_jenkins](https://github.com/gquere/pwn_jenkins) - Notes about attacking Jenkins servers.
 - [Secrets Patterns Database](https://github.com/mazen160/secrets-patterns-db) - The largest open-source database for detecting secrets, API keys, passwords, tokens, and more. 

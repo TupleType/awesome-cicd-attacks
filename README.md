@@ -27,6 +27,7 @@ A curated list of unique and useful CI/CD attack techniques.
 - [Holes in Your Bitbucket: Why Your CI/CD Pipeline Is Leaking Secrets](https://cloud.google.com/blog/topics/threat-intelligence/bitbucket-pipeline-leaking-secrets)
 - [Publicly Exposed AWS Document DB Snapshots](https://ramimac.me/exposed-docdb)
 - [Thousands of images on Docker Hub leak auth secrets, private keys](https://www.bleepingcomputer.com/news/security/thousands-of-images-on-docker-hub-leak-auth-secrets-private-keys/)
+- [Credential leakage risks hiding in Frontend code](https://cremit.io/blog/credential-leakage-risks-hiding-in-frontend-code)
 
 ### Initial Code Execution
 - [ActionsTOCTOU (Time Of Check to Time Of Use)](https://github.com/AdnaneKhan/ActionsTOCTOU/) - A tool to monitor for an approval event and then quickly replace a file in the PR head with a local file specified as a parameter.

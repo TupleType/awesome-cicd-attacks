@@ -39,6 +39,7 @@ A curated list of unique and useful CI/CD attack techniques.
 - [Erosion of Trust: Unmasking Supply Chain Vulnerabilities in the Terraform Registry](https://boostsecurity.io/blog/erosion-of-trust-unmasking-supply-chain-vulnerabilities-in-the-terraform-registry) - Terraform modules are not protected by the Dependency Lock File, consequently, a seemingly harmless module could potentially introduce malicious code.
 - [Fixing typos and breaching microsoft's perimeter](https://johnstawinski.com/2024/04/15/fixing-typos-and-breaching-microsofts-perimeter/) - Bypass GitHub workflow approval requirement by becoming a contributor.
 - [GitHub Dataset Research Reveals Millions Potentially Vulnerable to RepoJacking](https://www.aquasec.com/blog/github-dataset-research-reveals-millions-potentially-vulnerable-to-repojacking/)
+- [Gitloker attacks abuse GitHub notifications to push malicious OAuth apps](https://www.bleepingcomputer.com/news/security/gitloker-attacks-abuse-github-notifications-to-push-malicious-oauth-apps/)
 - [Hacking GitHub AWS integrations again](https://dagrz.com/writing/aws-security/hacking-github-aws-oidc/) - Attacking misconfigured pipelines that use OIDC.
 - [How I hacked into Google's internal corporate assets](https://observationsinsecurity.com/2024/04/25/how-i-hacked-into-googles-internal-corporate-assets/) - More ways to find dependencies in code for Dependency Confusion.
 - [How to completely own an airline in 3 easy steps](https://maia.crimew.gay/posts/how-to-hack-an-airline/) - Misconfigured CI system accessible from the internet.
@@ -47,7 +48,7 @@ A curated list of unique and useful CI/CD attack techniques.
 - [Keeping your GitHub Actions and workflows secure Part 2: Untrusted input](https://securitylab.github.com/research/github-actions-untrusted-input/) - GitHub Actions command injection.
 - [Malicious code analysis: Abusing SAST (mis)configurations to hack CI systems](https://medium.com/cider-sec/malicious-code-analysis-abusing-sast-mis-configurations-to-hack-ci-systems-13d5c1b37ffe)
 - [PPE — Poisoned Pipeline Execution](https://medium.com/cider-sec/ppe-poisoned-pipeline-execution-34f4e8d0d4e9)
-- [Security alert: social engineering campaign targets technology industry employees](https://github.blog/2023-07-18-security-alert-social-engineering-campaign-targets-technology-industry-employees/) - Phishing GitHub users.
+- [Security alert: social engineering campaign targets technology industry employees](https://github.blog/2023-07-18-security-alert-social-engineering-campaign-targets-technology-industry-employees/) - Phishing GitHub users to download and execute repositories.
 - [The Monsters in Your Build Cache – GitHub Actions Cache Poisoning](https://adnanthekhan.com/2024/05/06/the-monsters-in-your-build-cache-github-actions-cache-poisoning/)
 - [Thousands of npm accounts use email addresses with expired domains](https://therecord.media/thousands-of-npm-accounts-use-email-addresses-with-expired-domains) - Maintainer Email hijacking.
 - [Understanding typosquatting methods - for a secure supply chain](https://bytesafe.dev/posts/understanding-typosquatting-methods/)
@@ -71,6 +72,7 @@ A curated list of unique and useful CI/CD attack techniques.
 - [Bypassing required reviews using GitHub Actions](https://medium.com/cider-sec/bypassing-required-reviews-using-github-actions-6e1b29135cc7)
 - [Forging signed commits on GitHub](https://iter.ca/post/gh-sig-pwn/)
 - [GitHub comments abused to push malware via Microsoft repo URLs](https://www.bleepingcomputer.com/news/security/github-comments-abused-to-push-malware-via-microsoft-repo-urls/) - Hidden GitHub comment link.
+- [How a Single Vulnerability Can Bring Down the JavaScript Ecosystem](https://www.landh.tech/blog/20240603-npm-cache-poisoning/) - Cache poisoning attack on the NPM registry rendering packages unavailable.
 - [One Supply Chain Attack to Rule Them All – Poisoning GitHub's Runner Images](https://adnanthekhan.com/2023/12/20/one-supply-chain-attack-to-rule-them-all/)
 - [PR sneaking](https://github.com/mortenson/pr-sneaking) - Methods of sneaking malicious code into GitHub pull requests.
 - [StarJacking – Making Your New Open Source Package Popular in a Snap](https://checkmarx.com/blog/starjacking-making-your-new-open-source-package-popular-in-a-snap/)

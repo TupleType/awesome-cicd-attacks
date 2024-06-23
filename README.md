@@ -59,12 +59,14 @@ A curated list of unique and useful CI/CD attack techniques.
 ### Post Exploitation
 - [From Self-Hosted GitHub Runner to Self-Hosted Backdoor](https://www.praetorian.com/blog/self-hosted-github-runners-are-backdoors/)
 - [Hacking Terraform State for Privilege Escalation](https://blog.plerion.com/hacking-terraform-state-privilege-escalation/)
+- [Hijacking GitHub runners to compromise the organization](https://www.synacktiv.com/publications/hijacking-github-runners-to-compromise-the-organization) - Registering a GitHub runner with the ubuntu-latest tag grants access to jobs originally designated for GitHub-provisioned runners.
 - [How We Discovered Vulnerabilities in CI/CD Pipelines of Popular Open-Source Projects](https://cycode.com/blog/github-actions-vulnerabilities) - Extracting all repository and organization secrets in GitHub Actions.
 - [Leaking Secrets From GitHub Actions: Reading Files And Environment Variables, Intercepting Network/Process Communication, Dumping Memory](https://karimrahal.com/2023/01/05/github-actions-leaking-secrets/)
 - [Living off the pipeline](https://github.com/boostsecurityio/lotp) - Inventory how development tools (typically CLIs), have lesser-known RCE-By-Design features.
 <!--lint ignore awesome-list-item-->
 - [Registering self-hosted CircleCI runner](broken_links.md/#httpstwittercomalxk7istatus1524353383976558593t5esgwtom2218sgygy5vdoas19) - Can be used to steal secrets of job executed on the malicious runner. 
 - [The GitHub Actions Worm: Compromising GitHub Repositories Through the Actions Dependency Tree](https://www.paloaltonetworks.com/blog/prisma-cloud/github-actions-worm-dependencies/)
+
 
 ### Defense Evasion
 - [#redteam tip: want to discretely extract credentials from a CI/CD pipeline?](https://twitter.com/_alxk/status/1442519103885959172?s=21) - Draft pull requests won't alert repository contributors, but will still trigger pipelines.

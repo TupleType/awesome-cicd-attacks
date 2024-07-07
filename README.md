@@ -8,7 +8,7 @@ Practical resources for offensive CI/CD security research.
   - [Initial Code Execution](#initial-code-execution)
   - [Post Exploitation](#post-exploitation)
   - [Defense Evasion](#defense-evasion)
-- [Offensive Tools](#offensive-tools)
+- [Tools](#tools)
 - [Case Studies](#case-studies)
 - [Similar Projects](#similar-projects)
 
@@ -88,7 +88,7 @@ A curated list of unique and useful CI/CD attack techniques.
 ## Tools
 - [ADOKit](https://github.com/xforcered/ADOKit) - Azure DevOps Services Attack Toolkit.
 - [Gato](https://github.com/praetorian-inc/gato) - GitHub Attack Toolkit.
-- [GHTorrent Project](http://ghtorrent-downloads.ewi.tudelft.nl/mysql/) - A queryable offline mirror of the GitHub API data. (Tutorial)[https://ghtorrent.github.io/tutorial/].
+- [GHTorrent Project](http://ghtorrent-downloads.ewi.tudelft.nl/mysql/) - A queryable offline mirror of the GitHub API data. [Tutorial](https://ghtorrent.github.io/tutorial/).
 - [git-dumper](https://github.com/arthaud/git-dumper) - Dump Git repository from a website.
 - [GitFive](https://github.com/mxrch/gitfive) - OSINT tool to investigate GitHub profiles.
 - [Grep.app](https://grep.app/) - Search GitHub using regex.

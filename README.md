@@ -1,5 +1,5 @@
 # Awesome CI/CD Attacks [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-Practical resources for offensive CI/CD security research.
+Offensive research of systems and processes related to developing and deploying code.
 
 ## Contents
 

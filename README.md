@@ -62,7 +62,7 @@ A curated list of unique and useful CI/CD attack techniques.
 - [Hacking Terraform State for Privilege Escalation](https://blog.plerion.com/hacking-terraform-state-privilege-escalation/)
 - [Hijacking GitHub runners to compromise the organization](https://www.synacktiv.com/publications/hijacking-github-runners-to-compromise-the-organization) - Registering a GitHub runner with the ubuntu-latest tag grants access to jobs originally designated for GitHub-provisioned runners.
 - [How We Discovered Vulnerabilities in CI/CD Pipelines of Popular Open-Source Projects](https://cycode.com/blog/github-actions-vulnerabilities) - Extracting all repository and organization secrets in GitHub Actions.
-- [Invisible Ghost: Alarming Vulnerability in GitHub Copilot](https://www.apexhq.ai/blog/blog/invisible-ghost-alarming-vulnerability-in-github-copilot/) - Using hidden Unicode characters to manipulate GitHub Copilot’s suggestions.
+- [Invisible Ghost: Alarming Vulnerability in GitHub Copilot](https://www.apexhq.ai/blog/blog/invisible-ghost-alarming-vulnerability-in-github-copilot/) - Using hidden Unicode characters to manipulate GitHub Copilot's suggestions.
 - [Leaking Secrets From GitHub Actions: Reading Files And Environment Variables, Intercepting Network/Process Communication, Dumping Memory](https://karimrahal.com/2023/01/05/github-actions-leaking-secrets/)
 - [Living off the pipeline](https://github.com/boostsecurityio/lotp) - Inventory how development tools (typically CLIs), have lesser-known RCE-By-Design features.
 <!--lint ignore awesome-list-item-->

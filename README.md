@@ -105,6 +105,9 @@ A curated list of unique and useful CI/CD attack techniques.
 
 ## Case Studies
 - [10 real-world stories of how we've compromised CI/CD pipelines](https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve-compromised-ci-cd-pipelines/)
+- [GitHub Actions Attack Diagram](https://github.com/jstawinski/GitHub-Actions-Attack-Diagram) - Includes public vulnerability research presented at Black Hat USA 2024 and DEF CON 32.
+- [Playing with Fire – How We Executed a Critical Supply Chain Attack on PyTorch](https://johnstawinski.com/2024/01/11/playing-with-fire-how-we-executed-a-critical-supply-chain-attack-on-pytorch/)
+- []
 
 ## Similar Projects
 - [Common Threat Matrix for CI/CD Pipeline](https://github.com/rung/threat-matrix-cicd)

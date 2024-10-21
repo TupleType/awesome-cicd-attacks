@@ -18,6 +18,7 @@ A curated list of unique and useful CI/CD attack techniques.
 ### Publicly Exposed Sensitive Data
 - [(The) Postman Carries Lots of Secrets](https://trufflesecurity.com/blog/postman-carries-lots-of-secrets)
 - [All the Small Things: Azure CLI Leakage and Problematic Usage Patterns](https://www.paloaltonetworks.com/blog/prisma-cloud/secrets-leakage-user-error-azure-cli/)
+- [Anyone can Access Deleted and Private Repository Data on GitHub](https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github) - As long as it's part of a fork network.
 - [Beyond S3: Exposed Resources on AWS](https://duo.com/blog/beyond-s3-exposed-resources-on-aws) - Public EBS, RDS, AMI and ElasticSearch clusters exposed to the internet. 
 - [CloudQuarry: Digging for secrets in public AMIs](https://securitycafe.ro/2024/05/08/aws-cloudquarry-digging-for-secrets-in-public-amis/)
 - [Employee Personal GitHub Repos Expose Internal Azure and Red Hat Secrets](https://www.aquasec.com/blog/github-repos-expose-azure-and-red-hat-secrets/)
@@ -91,6 +92,7 @@ A curated list of unique and useful CI/CD attack techniques.
 ## Tools
 - [ADOKit](https://github.com/xforcered/ADOKit) - Azure DevOps Services Attack Toolkit.
 - [Gato](https://github.com/praetorian-inc/gato) - GitHub Attack Toolkit.
+- [Gato-X](https://github.com/AdnaneKhan/Gato-X) - GitHub Attack Toolkit - Extreme Edition.
 - [GH Archive](https://www.gharchive.org/) - A project to record the public GitHub timeline, archive it, and make it easily accessible for further analysis.
 - [GHTorrent Project](http://ghtorrent-downloads.ewi.tudelft.nl/mysql/) - A queryable offline mirror of the GitHub API data. [Tutorial](https://ghtorrent.github.io/tutorial/).
 - [git-dumper](https://github.com/arthaud/git-dumper) - Dump Git repository from a website.

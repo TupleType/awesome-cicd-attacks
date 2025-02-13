@@ -17,7 +17,7 @@ A curated list of unique and useful CI/CD attack techniques.
 
 ### Publicly Exposed Sensitive Data
 - [(The) Postman Carries Lots of Secrets](https://trufflesecurity.com/blog/postman-carries-lots-of-secrets) - Postman's public API network leaks thousands of secrets due to confusing UI, forks, and insufficient secret scanning.
-- [All the Small Things: Azure CLI Leakage and Problematic Usage Patterns](https://www.paloaltonetworks.com/blog/prisma-cloud/secrets-leakage-user-error-azure-cli/) - Azure CLI leaks secrets to CI/CD logs due to usage patterns
+- [All the Small Things: Azure CLI Leakage and Problematic Usage Patterns](https://www.paloaltonetworks.com/blog/prisma-cloud/secrets-leakage-user-error-azure-cli/) - Azure CLI leaks secrets to CI/CD logs due to usage patterns.
 - [Anyone can Access Deleted and Private Repository Data on GitHub](https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github) - As long as it's part of a fork network.
 - [Beyond S3: Exposed Resources on AWS](https://duo.com/blog/beyond-s3-exposed-resources-on-aws) - Public EBS, RDS, AMI and ElasticSearch clusters exposed to the internet. 
 - [CloudQuarry: Digging for secrets in public AMIs](https://securitycafe.ro/2024/05/08/aws-cloudquarry-digging-for-secrets-in-public-amis/) - Researchers found 500GB of credentials, private repos, and keys in public AWS AMIs, impacting various industries.
@@ -36,14 +36,12 @@ A curated list of unique and useful CI/CD attack techniques.
 - [Can you trust ChatGPT's package recommendations?](https://vulcan.io/blog/ai-hallucinations-package-risk) - Exploit generative AI platforms' tendency to generate non-existent coding libraries to execute Dependecy Confusion.
 - [Can You Trust Your VSCode Extensions?](https://www.aquasec.com/blog/can-you-trust-your-vscode-extensions/) - Impersonate popular VSCode extensions and trick unknowing developers into downloading them.
 - [Deep dive into Visual Studio Code extension security vulnerabilities](https://snyk.io/blog/visual-studio-code-extension-security-vulnerabilities-deep-dive/) - VS Code extensions have vulnerabilities (command injection, path traversal, zip slip) that can compromise developer machines.
-- [Dependency Confusion: How I Hacked Into Apple, Microsoft and Dozens of Other Companies](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610) - 
-Researchers uploaded malicious packages with internal company names, gaining access to Apple, Microsoft, and others due to dependency confusion.
+- [Dependency Confusion: How I Hacked Into Apple, Microsoft and Dozens of Other Companies](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610) - Researchers uploaded malicious packages with internal company names, gaining access to Apple, Microsoft, and others due to dependency confusion.
 - [Dependency Confusions in Docker and remote pwning of your infra](https://www.errno.fr/DockerDependencyConfusion.html) - Docker dependency confusion occurs when a misconfigured Docker mirror pulls malicious public images instead of private ones.
 - [Erosion of Trust: Unmasking Supply Chain Vulnerabilities in the Terraform Registry](https://boostsecurity.io/blog/erosion-of-trust-unmasking-supply-chain-vulnerabilities-in-the-terraform-registry) - Terraform modules are not protected by the Dependency Lock File, consequently, a seemingly harmless module could potentially introduce malicious code.
 - [Fixing typos and breaching microsoft's perimeter](https://johnstawinski.com/2024/04/15/fixing-typos-and-breaching-microsofts-perimeter/) - Bypass GitHub workflow approval requirement by becoming a contributor.
 - [GitHub Dataset Research Reveals Millions Potentially Vulnerable to RepoJacking](https://www.aquasec.com/blog/github-dataset-research-reveals-millions-potentially-vulnerable-to-repojacking/) - Millions of GitHub repos are vulnerable to RepoJacking due to org renames, leading to potential code execution.
-- [Gitloker attacks abuse GitHub notifications to push malicious OAuth apps](https://www.bleepingcomputer.com/news/security/gitloker-attacks-abuse-github-notifications-to-push-malicious-oauth-apps/) - 
-Attackers use fake GitHub notifications to trick users into authorizing malicious OAuth apps that steal repo access.
+- [Gitloker attacks abuse GitHub notifications to push malicious OAuth apps](https://www.bleepingcomputer.com/news/security/gitloker-attacks-abuse-github-notifications-to-push-malicious-oauth-apps/) - Attackers use fake GitHub notifications to trick users into authorizing malicious OAuth apps that steal repo access.
 - [Hacking GitHub AWS integrations again](https://dagrz.com/writing/aws-security/hacking-github-aws-oidc/) - Attacking misconfigured pipelines that use OIDC.
 - [How I hacked into Google's internal corporate assets](https://observationsinsecurity.com/2024/04/25/how-i-hacked-into-googles-internal-corporate-assets/) - More ways to find dependencies in code for Dependency Confusion.
 - [How to completely own an airline in 3 easy steps](https://maia.crimew.gay/posts/how-to-hack-an-airline/) - Misconfigured CI system accessible from the internet.
@@ -57,8 +55,7 @@ Attackers use fake GitHub notifications to trick users into authorizing maliciou
 - [Thousands of npm accounts use email addresses with expired domains](https://therecord.media/thousands-of-npm-accounts-use-email-addresses-with-expired-domains) - Maintainer Email hijacking.
 - [Understanding typosquatting methods - for a secure supply chain](https://bytesafe.dev/posts/understanding-typosquatting-methods/) - Typosquatting involves publishing malicious packages with names similar to legitimate ones, exploiting typos to inject malicious code.
 - [Vulnerable GitHub Actions Workflows Part 1: Privilege Escalation Inside Your CI/CD Pipeline](https://www.legitsecurity.com/blog/github-privilege-escalation-vulnerability) - GitHub Actions workflow_run PE.
-- [What the fork? Imposter commits in GitHub Actions and CI/CD](https://www.chainguard.dev/unchained/what-the-fork-imposter-commits-in-github-actions-and-ci-cd) - 
-GitHub Actions vulnerability allows forked commits to bypass workflow security settings.
+- [What the fork? Imposter commits in GitHub Actions and CI/CD](https://www.chainguard.dev/unchained/what-the-fork-imposter-commits-in-github-actions-and-ci-cd) - GitHub Actions vulnerability allows forked commits to bypass workflow security settings.
 - [WordPress Plugin Confusion: How an update can get you pwned](https://vavkamil.cz/2021/11/25/wordpress-plugin-confusion-update-can-get-you-pwned/) - Unclaimed WordPress plugins are vulnerable to takeover via the plugin directory.
 
 ### Post Exploitation
@@ -78,9 +75,8 @@ GitHub Actions vulnerability allows forked commits to bypass workflow security s
 ### Defense Evasion
 - [#redteam tip: want to discretely extract credentials from a CI/CD pipeline?](https://twitter.com/_alxk/status/1442519103885959172?s=21) - Draft pull requests won't alert repository contributors, but will still trigger pipelines.
 - [Abusing Repository Webhooks to Access Internal CI/CD Systems at Scale](https://www.paloaltonetworks.com/blog/prisma-cloud/repository-webhook-abuse-access-ci-cd-systems-at-scale/) - Repository webhooks, used to trigger CI/CD pipelines, can be abused to access internal systems.
-- [Bypassing required reviews using GitHub Actions](https://medium.com/cider-sec/bypassing-required-reviews-using-github-actions-6e1b29135cc7) -  GitHub Actions can bypass required reviews, allowing malicious code pushes to protected branches
-- [Forging signed commits on GitHub](https://iter.ca/post/gh-sig-pwn/) - 
-A bug in GitHub's API allowed forging signed commits. By exploiting a regex flaw in an internal Codespaces API endpoint, an attacker could create commits signed by any user, despite GitHub's web flow signature.
+- [Bypassing required reviews using GitHub Actions](https://medium.com/cider-sec/bypassing-required-reviews-using-github-actions-6e1b29135cc7) -  GitHub Actions can bypass required reviews, allowing malicious code pushes to protected branches.
+- [Forging signed commits on GitHub](https://iter.ca/post/gh-sig-pwn/) - A bug in GitHub's API allowed forging signed commits. By exploiting a regex flaw in an internal Codespaces API endpoint, an attacker could create commits signed by any user, despite GitHub's web flow signature.
 - [GitHub comments abused to push malware via Microsoft repo URLs](https://www.bleepingcomputer.com/news/security/github-comments-abused-to-push-malware-via-microsoft-repo-urls/) - Hidden GitHub comment link.
 - [How a Single Vulnerability Can Bring Down the JavaScript Ecosystem](https://www.landh.tech/blog/20240603-npm-cache-poisoning/) - Cache poisoning attack on the NPM registry rendering packages unavailable.
 - [One Supply Chain Attack to Rule Them All – Poisoning GitHub's Runner Images](https://adnanthekhan.com/2023/12/20/one-supply-chain-attack-to-rule-them-all/) - A critical vulnerability in GitHub Actions, involving a misconfigured self-hosted runner in the actions/runner-images repository, allowed potential compromise of all GitHub and Azure hosted runner images.

@@ -45,6 +45,7 @@ A curated list of unique and useful CI/CD attack techniques.
 - [Hacking GitHub AWS integrations again](https://dagrz.com/writing/aws-security/hacking-github-aws-oidc/) - Attacking misconfigured pipelines that use OIDC.
 - [How I hacked into Google's internal corporate assets](https://observationsinsecurity.com/2024/04/25/how-i-hacked-into-googles-internal-corporate-assets/) - More ways to find dependencies in code for Dependency Confusion.
 - [How to completely own an airline in 3 easy steps](https://maia.crimew.gay/posts/how-to-hack-an-airline/) - Misconfigured CI system accessible from the internet.
+- [How We Hacked a Software Supply Chain for $50K](https://www.landh.tech/blog/20250211-hack-supply-chain-for-50k/) - Scraped JavaScript files front-end of the target and used ASTs to identify import/require statements which lead to discovering a public contaier with NPM credentials.
 - [Introducing MavenGate: a supply chain attack method for Java and Android applications](https://blog.oversecured.com/Introducing-MavenGate-a-supply-chain-attack-method-for-Java-and-Android-applications/) - Many public and popular libraries that have long been abandoned are still being used in huge projects. Access to projects can be hijacked through domain name purchases.
 - [Keeping your GitHub Actions and workflows secure Part 1: Preventing pwn requests](https://securitylab.github.com/research/github-actions-preventing-pwn-requests/) - Combining pull_request_target workflow trigger with an explicit checkout of an untrusted PR may lead to repository compromise.
 - [Keeping your GitHub Actions and workflows secure Part 2: Untrusted input](https://securitylab.github.com/research/github-actions-untrusted-input/) - GitHub Actions command injection.
@@ -56,6 +57,7 @@ A curated list of unique and useful CI/CD attack techniques.
 - [Understanding typosquatting methods - for a secure supply chain](https://bytesafe.dev/posts/understanding-typosquatting-methods/) - Typosquatting involves publishing malicious packages with names similar to legitimate ones, exploiting typos to inject malicious code.
 - [Vulnerable GitHub Actions Workflows Part 1: Privilege Escalation Inside Your CI/CD Pipeline](https://www.legitsecurity.com/blog/github-privilege-escalation-vulnerability) - GitHub Actions workflow_run PE.
 - [What the fork? Imposter commits in GitHub Actions and CI/CD](https://www.chainguard.dev/unchained/what-the-fork-imposter-commits-in-github-actions-and-ci-cd) - GitHub Actions vulnerability allows forked commits to bypass workflow security settings.
+- [whoAMI: A cloud image name confusion attack](https://securitylabs.datadoghq.com/articles/whoami-a-cloud-image-name-confusion-attack/) - Dependency Confusion using AWS AMIs.
 - [WordPress Plugin Confusion: How an update can get you pwned](https://vavkamil.cz/2021/11/25/wordpress-plugin-confusion-update-can-get-you-pwned/) - Unclaimed WordPress plugins are vulnerable to takeover via the plugin directory.
 
 ### Post Exploitation
@@ -81,6 +83,7 @@ A curated list of unique and useful CI/CD attack techniques.
 - [How a Single Vulnerability Can Bring Down the JavaScript Ecosystem](https://www.landh.tech/blog/20240603-npm-cache-poisoning/) - Cache poisoning attack on the NPM registry rendering packages unavailable.
 - [One Supply Chain Attack to Rule Them All – Poisoning GitHub's Runner Images](https://adnanthekhan.com/2023/12/20/one-supply-chain-attack-to-rule-them-all/) - A critical vulnerability in GitHub Actions, involving a misconfigured self-hosted runner in the actions/runner-images repository, allowed potential compromise of all GitHub and Azure hosted runner images.
 - [PR sneaking](https://github.com/mortenson/pr-sneaking) - Methods of sneaking malicious code into GitHub pull requests.
+- [Remove evidence of malicious pull requests on GitHub](https://x.com/adnanthekhan/status/1829116171045474374) - Changing account's email to block-listed domain, automatically flagges bans the account.
 - [StarJacking – Making Your New Open Source Package Popular in a Snap](https://checkmarx.com/blog/starjacking-making-your-new-open-source-package-popular-in-a-snap/) - StarJacking is a technique where attackers make malicious open-source packages appear popular.
 - [The massive bug at the heart of the npm ecosystem](https://blog.vlt.sh/blog/the-massive-hole-in-the-npm-ecosystem) - NPM Manifest Confusion.
 - [Trojan Source](https://trojansource.codes/) - Rather than inserting logical bugs, adversaries can attack the encoding of source code files to inject vulnerabilities.

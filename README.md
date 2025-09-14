@@ -109,7 +109,7 @@ A curated list of unique and useful CI/CD attack techniques.
 - [Token-Spray](https://blog.projectdiscovery.io/nuclei-v2-5-3-release/) - Automate token validation using Nuclei.
 
 ## Case Studies
-- [10 real-world stories of how we've compromised CI/CD pipelines](https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve-compromised-ci-cd-pipelines/) - Examples include exploiting S3 misconfigurations, Jenkins plugin flaws, GitLab runner privilege escalations, Kubernetes pod annotation vulnerabilities, and compromised developer laptops.
+- [10 real-world stories of how we've compromised CI/CD pipelines](https://www.nccgroup.com/research-blog/10-real-world-stories-of-how-we-ve-compromised-cicd-pipelines/) - Examples include exploiting S3 misconfigurations, Jenkins plugin flaws, GitLab runner privilege escalations, Kubernetes pod annotation vulnerabilities, and compromised developer laptops.
 - [GitHub Actions Attack Diagram](https://github.com/jstawinski/GitHub-Actions-Attack-Diagram) - Includes public vulnerability research presented at Black Hat USA 2024 and DEF CON 32.
 - [Playing with Fire – How We Executed a Critical Supply Chain Attack on PyTorch](https://johnstawinski.com/2024/01/11/playing-with-fire-how-we-executed-a-critical-supply-chain-attack-on-pytorch/) - Researchers exploited a critical PyTorch vulnerability via a malicious pull request to execute code on self-hosted runners.
 

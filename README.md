@@ -104,6 +104,7 @@ A curated list of unique and useful CI/CD attack techniques.
 - [Jenkins Attack Framework](https://github.com/Accenture/jenkins-attack-framework) - This tool can manage Jenkins tasks, like listing jobs, dumping credentials, running commands/scripts, and managing API tokens.
 - [Nord Stream](https://github.com/synacktiv/nord-stream) - A tool to extract secrets stored inside CI/CD environments.
 - [pwn_jenkins](https://github.com/gquere/pwn_jenkins) - Notes about attacking Jenkins servers.
+- [Vulert](https://vulert.com) - Vulert secures software by detecting vulnerabilities in open-source dependencies—without accessing your code. It supports Js, PHP, Java, Python, and more
 - [Secrets Patterns Database](https://github.com/mazen160/secrets-patterns-db) - The largest open-source database for detecting secrets, API keys, passwords, tokens, and more. 
 - [Sourcegraph](https://sourcegraph.com/search) - A web-based code search and navigation tool for public repositories.
 - [Token-Spray](https://blog.projectdiscovery.io/nuclei-v2-5-3-release/) - Automate token validation using Nuclei.

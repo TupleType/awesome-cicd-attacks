@@ -111,6 +111,7 @@ A curated list of unique and useful CI/CD attack techniques.
 
 ## Case Studies
 - [10 real-world stories of how we've compromised CI/CD pipelines](https://www.nccgroup.com/research-blog/10-real-world-stories-of-how-we-ve-compromised-cicd-pipelines/) - Examples include exploiting S3 misconfigurations, Jenkins plugin flaws, GitLab runner privilege escalations, Kubernetes pod annotation vulnerabilities, and compromised developer laptops.
+- [12 Steps to Secure GitHub Actions After the Trivy Attack](https://haitmg.pl/blog/github-actions-security-after-trivy-attack/) - Full 16-month timeline from SpotBugs PAT theft to Trivy/TeamPCP CVE-2026-33634 with 12 concrete hardening steps.
 - [GitHub Actions Attack Diagram](https://github.com/jstawinski/GitHub-Actions-Attack-Diagram) - Includes public vulnerability research presented at Black Hat USA 2024 and DEF CON 32.
 - [Playing with Fire – How We Executed a Critical Supply Chain Attack on PyTorch](https://johnstawinski.com/2024/01/11/playing-with-fire-how-we-executed-a-critical-supply-chain-attack-on-pytorch/) - Researchers exploited a critical PyTorch vulnerability via a malicious pull request to execute code on self-hosted runners.
 
